@@ -1,7 +1,7 @@
 # Propojení Inteligencí
 Otevřený ekosystém o rizicích delegace myšlení na AI, a možnostech exokortexu (propojení lidské a strojové inteligence).
 ## Účel repozitáře:
-Vytvořit knihu a materiály jako podklady pro výzkum, ze kterých bude kniha později čerpat a dále se zpřesňovat.
+Vytvořit knihu a materiály jako podklady pro výzkum a využití umělé inteligence jako exokortexu, ze kterých bude kniha později čerpat a dále se zpřesňovat.
 ## Každý si v repozitáři najde své:
 Návod a postupy, jak augmentovat vlastní mysl. Výzkumné otázky připravené k ověření. Vhledy do trhu, který se teprve rodí a konkrétní transformační potenciál – od školství přes justici až po korporátní vužití.
 ## Nejedná se o ukončenou vědu:
