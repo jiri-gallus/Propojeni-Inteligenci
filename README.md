@@ -5,7 +5,7 @@ Vytvořit knihu a materiály jako podklady pro výzkum a využití umělé intel
 ## Každý si v repozitáři najde své:
 Návod a postupy, jak augmentovat vlastní mysl. Výzkumné otázky připravené k ověření. Vhledy do trhu, který se teprve rodí a konkrétní transformační potenciál – od školství přes justici až po korporátní vužití.
 ## Nejedná se o ukončenou vědu:
-Repozitář obsahuje rodící se vědní obor a né hotové pravdy. Jde o architekturu interakcí mezi inteligentcemi, na kterou se dá modelovat jakýkoli obor od neurologie, psychologie, pedagogiky, přes umělou inteligenci, matematiku a kybernetiku. Hlavní mechanismy jsou popsané, aplikace čekají na spolupráci.
+Repozitář obsahuje rodící se vědní obor, né hotové pravdy. Jde o architekturu interakcí mezi inteligentcemi, na kterou se dá modelovat jakýkoli obor od neurologie, psychologie, pedagogiky, přes umělou inteligenci, matematiku a kybernetiku. Hlavní mechanismy jsou popsané, aplikace čekají na spolupráci.
 
 Hlavní vědecká metodika je abdukce vycházející z propojení s LLM (1 300 hodin metodami augmentace za 6 měsíců před vznikem repozitáře). Práce propojuje obory na systémové a modelové úrovni. Nezahlcuje detaily tam, kde by odváděly od velkých témat. Ověření do hloubky – dedukci a indukci – nechává otevřené.
 
