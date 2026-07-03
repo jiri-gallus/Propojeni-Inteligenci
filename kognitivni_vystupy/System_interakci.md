@@ -2,7 +2,6 @@
 
 Jedná se o systémovou architekturu interakcí. Vnitřní logika bloků na úrovni systému je záměrně abstrahována, stejně tak povaha obou výstupů interakcí a jedné akce. Definování logiky a výstupů je modelová aplikace na systém.
 
----
 ## Definice
 
 1. **Bloky a životní cyklus systému:**
@@ -34,7 +33,6 @@ Jde o vazbu mezi [IB]>[CB], která končí výstupem do [CB].
 3. Iniciací interakce [IB]–[CB] může vzniknout akce [IB]>[CB], která nutí [CB] k iniciaci interakce [CB]-[AB].
 4. Výstup do [IB] mění parametry [IB].
 
----
 ## Popis systému
 
 Systém je dynamický útvar tvořený bloky tří typů. Tyto bloky existují nezávisle na sobě. Systém vzniká teprve tehdy, když mezi nimi probíhá interakce nebo akce, tedy propojením bloků do činného celku. Jakmile všechny interakce a akce skončí, systém jako činný celek zaniká. Bloky samotné přetrvávají i mimo systém a uchovávají svůj stav pro příští interakce.
@@ -51,7 +49,6 @@ Systémově existují 2 výstupy jako ukončení interakcí [IB]-[CB] a [CB]-[AB
 
 Iniciace [IB]-[CB] může vyvolat akci, která představuje druhou cestu signálu. Akce je řídící vazba mezi [IB]>[CB], jejíž výstup končí v [CB] a nutí [CB] k iniciaci interakce [CB]–[AB]. Obě cesty vznikají současně z jediné iniciace [IB].
 
----
 ## Vlastnosti systému
 
 Systém se dá definovat pomocí 3 vlastností:
@@ -60,7 +57,6 @@ Systém se dá definovat pomocí 3 vlastností:
 2. **Řízením [IB]** – existenci systému a systémové operace řídí [IB].
 3. **Sekvenčností výstupů** – výstupy jsou sekvenční na základě ukončených interakcí.
 
----
 ## Rozšíření systému
 
 Systém je v základní konfiguraci pro popis interakcí mezi člověkem a strojem. Může se nacházet i ve zcela jiných konfiguracích. Uvádím 3 další možné interakce pro inspiraci.
