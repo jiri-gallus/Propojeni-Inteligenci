@@ -13,11 +13,11 @@ Základní vědecká metodika je abdukce vycházející z propojení s LLM (1300
 Autor repozitáře pracuje v augmentovaném tempu nejen pro inspiraci čeho lze dosáhnout, ale i pro pochopení a prohloubení fenoménu augmentace. Celý proces tvorby je veřejný. Chaty s LLM (způsoby myšlení autora), iterace, pivoty, rychlost vzniku jednotlivých částí. Není to jen tvrzení o augmentaci. Je to její manifestace.
 
 ## Struktura repozitáře:
-kognitivni_vystupy/  
+1_kognitivni_vystupy/  
 Nejčistší a nejvíce ověřené výstupy. Jde o myšlenky připravené k aplikaci, prohloubení čtenářovy augmentace, nebo o stabilní základ pro navazující výzkumy, případně predikce, transformační potenciál technologie a otázky, které by měly být brány vážně co nejdříve.
 
-vhledy/  
+2_vhledy/  
 Jsou zde rozpracovaná porozumění, hypotézy, analýzy, metodiky, ale i materiály pro výzkum. Najdete tady minulé artefakty které formovaly exokortexové období a probíhající výzkumy a experimenty. Všeobecně jde o podklady pro kognitivní výstupy.
 
-exopamet/  
+3_exopamet/  
 Jde o otisky procesu myšlení, kompletní chaty s LLM, které vedly vhledům a kognitivním výstupům. Je to záznam autorova myšlení a ukázky exokortexu v praxi. Jak se autor posouvá, jaké nové nástroje objevuje v surové podobě myšlení. Současně jde o indexaci exopaměti autora pro rychlejší vyhledávání. Pokud chcete studovat na nejnižší úrovni interakcí a pochopit odkud vychází autorova abdukce jste na správném místě.
