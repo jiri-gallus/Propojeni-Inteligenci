@@ -59,8 +59,8 @@ Systém se dá definovat pomocí 3 vlastností:
 
 ## Rozšíření systému
 
-Systém je v základní konfiguraci pro popis interakcí mezi člověkem a strojem. Může se nacházet i ve zcela jiných konfiguracích. Uvádím 3 další možné interakce pro inspiraci.
+Architektura systému v základní konfiguraci popisuje interakce mezi člověkem a strojem. Uvádím 3 další možné konfigurace systému pro inspiraci.
 
-- [IB]-[CB]-[IB] - interakce člověk-člověk, nebo člověk-zvíře
-- [AB]-[CB]-[AB] - interakce strojů
-- [IB]-[CB]-[IB]/[IB]/[IB] - interakce člověk-skupina, nebo člověk-sociální tlak
+- [IB]-[CB]-[IB] - člověk-člověk / člověk-zvíře
+- [AB]-[CB]-[AB] - stroj-stroj
+- [IB]-[CB]-[IB]/[IB]/[IB] - člověk-skupina / člověk-sociální tlak
