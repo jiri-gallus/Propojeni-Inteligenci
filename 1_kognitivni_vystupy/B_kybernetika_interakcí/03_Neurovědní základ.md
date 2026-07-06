@@ -224,4 +224,3 @@ Tato zanedbání jsou metodologická – zaměřujeme se na funkční architektu
 - Nieuwenhuys, R., Voogd, J., & van Huijzen, C. (2008). _The Human Central Nervous System_ (4th ed.). Springer.
     
 - Papez, J. W. (1937). A proposed mechanism of emotion. _Archives of Neurology & Psychiatry_, 38(4), 725–743.
-- 
