@@ -133,3 +133,90 @@
 **Název:** Archivace kontextového okna  
 **Popis:** Uživatel zadává instrukci k archivaci celého kontextového okna – rozdělení na logické celky opatřené názvem, popisem a citací. Definuje postup: rozdělení podle tématu na 2–20 částí, indexace, krátký název, popis a přesná citace začátku textu pro dohledatelnost.  
 **Citace:** „Připrav cele kontextové okno k archivaci paměti..."
+
+# 02_Simulace_Expert_Prompter
+
+**01 | Úvod a definice triády**  
+_Popis:_ Úvodní zadání uživatele definující tři aktéry (člověk, LLM, kontext) a požadavek na popsání jejich vztahů z pohledu literatury a konsenzu.  
+_Citace:_ _"Mám spolurácy s tebou tady v chatovém rozhraní. Jde o 3 aktéry..."_
+
+---
+
+**02 | Vědecký pohled – kybernetický systém**  
+_Popis:_ Odborná odpověď popisující vztah jako triadický kybernetický regulační okruh. Definice rolí jednotlivých aktérů a jejich vzájemné ovlivňování včetně toku dat a zpětné vazby.  
+_Citace:_ _"Vztah těchto tří aktérů tvoří triadický kybernetický regulační okruh..."_
+
+---
+
+**03 | Konsenzus literatury (Distribuovaná kognice, Alignment, Automation Bias)**  
+_Popis:_ Shrnutí vědeckého konsenzu – distribuovaná kognice, problém halucinací, přeceňování AI lidmi (automation bias) a omezení kontextového okna. Závěr o asymetrickém vztahu, kde člověk drží řízení.  
+_Citace:_ _"Distribuovaná kognice (Hutchins): Tato triáda je jeden kognitivní systém..."_
+
+---
+
+**04 | Přechod k lidskému jazyku – rámování rozhovoru**  
+_Popis:_ Uživatel žádá o převedení odborného jazyka do lidské roviny – jak by si to předávali zkušení promptéři mezi sebou. Autor navrhuje rámování "Co jsem se naučil, když jsem přestal psát prompty a začal stavět vesmíry".  
+_Citace:_ _"Dobře, sundáme bílé pláště. Představ si, že sedíme tři u stolu v kanclu..."_
+
+---
+
+**05 | Praktická znalost 1 – Model je autokorektor**  
+_Popis:_ LLM nemá názor ani pravdu, je to statistický syntetizátor. Halucinuje, když nemá oporu. Klíčové ponaučení: neptej se na odpověď, zadávej úkol.  
+_Citace:_ _"Ten model není blbej, ale je hrozně povrchní a ukecanej..."_
+
+---
+
+**06 | Praktická znalost 2 – Kontext je realita modelu**  
+_Popis:_ Kontext není "historie", ale kompletní vesmír LLM. Každý prompt je reset. Do kontextu se musí vložit vše najednou včetně toho, co nechceš.  
+_Citace:_ _"Kontext není historie zpráv, to je jeho momentální realita..."_
+
+---
+
+**07 | Praktická znalost 3 – Práce je stavění lešení**  
+_Popis:_ Nejde o kouzelnou formulku, ale o omezování pole působnosti. Mantinely, příklady a struktura vedou k lepším výstupům. Prázdný prostor model děsí.  
+_Citace:_ _"Tvá práce není psát prompty. Tvá práce je stavět lešení..."_
+
+---
+
+**08 | Praktická znalost 4 – Zpětná vazba je klíčová**  
+_Popis:_ Neexistuje dokonalý prompt, jen dialog. Model se učí z oprav v reálném čase. Stačí říct, co je špatně, a on se příště vyhne chybám.  
+_Citace:_ _"Nejvíc tě posune zpětná vazba, ne lepší prompt..."_
+
+---
+
+**09 | Praktická znalost 5 – Odpovědnost nese člověk**  
+_Popis:_ LLM nemá svědomí, ego ani ambice. Člověk je jediný, kdo v tom vztahu vidí svět a nese odpovědnost za výstupy. Model je nástroj, ne partner.  
+_Citace:_ _"Ty jsi ten, kdo nese odpovědnost. On je jen tvůj stín..."_
+
+---
+
+**10 | Shrnutí praktické části – Černá magie prompt inženýrství**  
+_Popis:_ Zkušení si předávají princip: "Nesnaž se ho přechytračit, snaž se mu to namíchat tak, aby neměl šanci to posrat." Jde o to odstranit prostor pro chybu.  
+_Citace:_ _"Takže souhrnně, lidsky a čistě: Zkušenější vědí, že to celý stojí na kontextu..."_
+
+---
+
+**11 | Upřesnění závěru – dva pohledy na kontext**  
+_Popis:_ Uživatel žádá o úpravu závěru – místo kuchařských metafor chce dva pohledy: co dělá kontext s LLM a co dělá kontext s člověkem.  
+_Citace:_ _"Souhlasím, že kontext je klíč. Ale musíme jít dál a teď už ne jako simulace..."_
+
+---
+
+**12 | Finální odstavec – Kontext jako zrcadlo**  
+_Popis:_ Kontext je pro LLM kompletní realita; pro člověka je zrcadlem vlastní nepřesnosti. Černá magie spočívá v tom, že skrze stroj lépe ovládáš sebe.  
+_Citace:_ _"Nesnaž se ho přechytračit. Snaž se mu to namíchat tak, aby neměl šanci to posrat..."_
+
+---
+
+**13 | Rámování pro čtenáře – simulace rozhovoru**  
+_Popis:_ Čisté rámování vysvětlující, že text je simulací rozhovoru zkušeného a začínajícího uživatele LLM. Nejde o teorii, ale o praktické know-how.  
+_Citace:_ _"Následující text je simulací rozhovoru dvou lidí, kteří pracují s LLM na denní bázi..."_
+
+---
+
+**14 | Závěrečné varování – Přebírání kognice**  
+_Popis:_ Poslední varovný odstavec o nebezpečí – LLM je první nástroj, který umí ve velkém přebrat kognici uživatele. Hrozí automace bias a ztráta kritického myšlení. Člověk musí zůstat strážcem brány.  
+_Citace:_ _"A poslední věc, která se ti snažím předat: Pozor na to, co tenhle vztah dělá s tebou..."_
+
+# 03
+# 04
