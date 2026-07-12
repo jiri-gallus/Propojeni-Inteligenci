@@ -3,7 +3,9 @@ Následující text je simulací rozhovoru dvou lidí, kteří pracují s LLM na
 
 Simulace zachycuje, jak zkušenější předává své know-how. Ne formou teorie, ale praktické zkušenosti, kterou si osvojil díky tomu, že se naučil vnímat kontext jako klíčový prvek celého systému. Simulaci provedl LLM na základě 2 promptů.
 
-Úvodní simulace je mostem mezi současným vnímáním kontextu, promptu, spolupráce k vyššímu pochopení mechanismů, které se dějí pod povrchem a budou popisovány v rámci modelu T-Ex.
+Úvodní simulace je mostem mezi dvěma světy:  
+- současné vnímáním kontextu, promptu, LLM.  
+- spolupráce inteligencí a hlubších mechanismů, popisované modelem T-Ex.
 
 ## Simulace
 **1. "Ten model není blbej, ale je hrozně povrchní a ukecanej."**  
@@ -31,7 +33,7 @@ Simulace zachycuje, jak zkušenější předává své know-how. Ne formou teori
 - Praxe: Když on vygeneruje něco, co je špatně, společensky, fakticky nebo eticky – je to 100% tvoje chyba, že jsi to tam nechal proletět a neokorigoval to v dalším promptu.  
 - Předání: "Ber ho jako svoje digitální svědomí? Ne, přesně naopak. **Ty jsi jeho svědomí.** On je nástroj, kterej urychlí tvou práci, ale nikdy tě nenahradí v tom, že musíš stát za tím, co z něj vyleze."
 
-## Závěr
+## Závěr simulace
 > **"Nesnaž se ho přechytračit. Snaž se mu to namíchat tak, aby neměl šanci to posrat."**
 
 Protože kontext pro LLM není "pozadí". Je to **jeho kompletní realita**. Vložíš mu tam mantinely, příklady a strukturu, a on se v tom začne pohybovat jako ryba ve vodě; bez nich nemá oporu a začne plácat cokoli, co mu vypadne z trénovacích dat.  
@@ -74,19 +76,19 @@ Právě tato křivka představuje základní diagnostický nástroj. Umožňuje 
 ## Model, specializace, agent
 Současné paradigma interakcí přiřazuje kontextovému oknu nejvyšší prioritu. Systém interakcí a model T-Ex jsou na základě kontextu vystavěny. Ten nese vlastnosti nejen interakcí, ale i obou aktérů, a navíc je ovlivňuje.
 
-První zásadní posun paradigmatu modelem T-Ex:  
+Kontext má nezastupitelnou pozici v hierarchii modelů umělé inteligence:  
 > _"Model umělé inteligence je platforma. Specializace je zaměření modelu. Agent vykonává instrukci na základě specializace modelu."_
 
-Jazykové modely umělé inteligence:
+### Jazykové modely umělé inteligence:
 - lokální
 - cloudové (typicky zde vnímáme LLM)
 
-Typy specializací modelů:
+### Specializace modelu:
 - interní: trénink, změna vah
 - externí: rozšíření, RAG, nástroje
 - kontextové: zúžení pozornosti
 
-Ve chvíli, kdy ke specializaci přidáme instrukci, vzniká agent:
+### Agent jednající na základě instrukce:
 - I-agent: vykonává úkol s trénovanými znalostmi
 - E-agent: vykonává úkol s rozšířenými nástroji
 - K-agent: vykonává úkol se zaměřenou pozorností
@@ -94,3 +96,22 @@ Ve chvíli, kdy ke specializaci přidáme instrukci, vzniká agent:
 > _"Reálný agent je většinou kombinován více specializacemi a aktivován instrukcí."_
 
 ## K-agent
+Vztahy a vlastnosti K-agenta v modelu T-Ex:  
+- Kontext existuje pro daný účel.
+- Účel kontextu je popsán křivkou interakce.
+- S kontextem interaguje uživatel exokortexu.
+- Kontext specializuje model, který se stává K-agentem při interakci s exokortexem.
+- Uživatel i K-agent interakcemi s exokortexem mění účel kontextu.
+
+## Křivka účelu interakce
+Paradigma současné doby staví kontext na 1. místo ve spolupráci člověka s LLM. Jde dokonce tak daleko, že tam, kde to je možné, odstraňuje uživatele z pozice spolutvůrce kontextu, aby agentic systémy dosahovaly lepších výsledku a uživatel s nimi interagoval jen na nejvyšší úrovni.
+
+Model T-Ex zaměřuje pozornost od kontextu k jeho účelu, od spolupráce s LLM k propojení inteligencí a začleňuje agentic přístup do exokortexu.
+
+Účel spolupráce mají oba aktéři jiný. Definuje kontext, specializaci modelu a ovlivňuje uživatele. Křivka účelu interakce popisuje vlastnosti a dynamiku propojených inteligencí.
+
+## Stádia exokortikálného organismu
+Všichni uživatelé LLM se stávají exokortikálním organismem. Rozdíl je jen v tom, jakého vývojového stádia dosahují. Zjednodušující příklad:  
+- Prompt egineer: Bojuje s LLM, snaží se jej přechytračit, delegovat kognice, aby výstup odpovídal očekávání. Interakce jsou blízko k pólu [AB].
+- Kontext engineer: Vnímá kontext jako klíč ke spolupráci s LLM. Jeho boj není s LLM, ale kontextem, kdy interakce jsou gravitovány k pólu [AB], ale rozprostírají se na větší šířku spektra [AB]---[IB].
+- Synapse engineer: Vnímá účel jako klíč k propojení inteligencí. Jeho boj není s kontextem, ani LLM, ale se samotným účelem interakcí inteligencí. Odstraňuje třecí plochy a synergicky se napojuje na LLM přes exokortex. Používá celé spektrum interakcí [AB]---[IB] aby naplnil a udržel definovaný účel.
