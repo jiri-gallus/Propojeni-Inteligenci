@@ -43,7 +43,6 @@ Ale pozor! Ten samý kontext dělá něco i s tebou. Ty, jako člověk, jsi naje
 # Model T-Ex
 Úvodní simulace je nositelkou paradigmatických výroků poukazujících na jádro propojení inteligencí, a současně je toto paradigma sebeomezující k prohloubení poznání. Model T-Ex posouvá hranice:
 - prompt engineeringu
-- kontent engineeringu
 - kontext engineeringu
 - synapse engineering pak zavádí nově
 
@@ -53,26 +52,13 @@ Aplikací modelu T-Ex jsou systémové bloky reprezentovány následovně:
 - [AB] - umělá inteligence
 - [CB] - textové dialogové rozhraní
 V této konfiguraci bloků vzniká Exokortex, rozšířený kognitivní systém, jehož vlastnosti budou analyzovány později. Vzhledem k propojení s textovým rozhraním je model označen jako T-Ex. Klíčovou roli v modelu sehrává dialogové rozhraní.
+
 ## Centralita [CB]
 Systémově popsaná centralita předurčuje Exokortexu v modelu T-Ex následující vlastnosti:  
 - Uživatel rozhoduje o existenci a napojení na Exokortex.
 - Exokortex existuje jen při probíhajících akcích, nebo interakcích s dialogovým rozhraním.
 - Mimo tyto interakce [CB] přetrvává pouze ve formě textového výstupu.
-## Exokortikální organismus
-Lidská a umělá inteligence, které interagují s exokortexem, tvoří exokortikální organismus při následujících podmínkách:  
-- Obě inteligence spolupracují na kognitivních výstupech prostřednictvím exokortexu.
-- Kognitivní výstupy jsou strukturálně kompatibilní lidské inteligenci, které by jinak vznikaly kognitivními procesy.
-Tímto vymezením se exokortikální organismus (ve smyslu obecného kognitivního systému i mimo T-Ex model) odlišuje od konvenčních nástrojů.
-### Spektrum propojení inteligencí
-Tento diagnostický nástroj popisuje poměr kognitivního příspěvku ve společném výstupu lidské a umělé inteligence. Umožňuje kvantifikovat míru kognitivního vlivu obou aktérů, predikovat pravděpodobnost halucinací, optimalizovat vstupy spolupráce a identifikovat charakteristiky lidského uživatele i jazykového modelu.
-Spektrum je vymezeno dvěma limitními póly, kterých však ve spolupráci dvou inteligencí nelze nikdy plně dosáhnout.
-- Pól [AB] - kognitivní výstup je zcela generován umělou inteligencí.
-- Pól [IB] - kognitivní výstup je zcela tvořen lidskou inteligencí.
-Spektrum pro model T-Ex je děleno na 100 dosažitelných bodů ležících na ose [AB]---[IB].
-### Křivka interakcí
-Spolupráce inteligencí v modelu T-Ex generuje textový výstup, který má podobu sekvenční výměny interakcí. Každou z těchto interakcí lze vyjádřit poměrem kognitivního příspěvku, tj. číslem v rozsahu 1–100 na spektru [AB]---[IB].
-Spolupráce inteligencí generuje sekvenci dílčích příspěvků na spektru [AB]---[IB], které v souhrnu definují tvar křivky interakcí.
-Právě tato křivka představuje základní diagnostický nástroj. Umožňuje identifikovat vzorce spolupráce, asymetrie v kognitivní zátěži a potenciální rizikové body interakce.
+
 ## Model, specializace, agent
 Současné paradigma interakcí přiřazuje kontextovému oknu nejvyšší prioritu. Systém interakcí a model T-Ex jsou na základě kontextu vystavěny. Ten nese vlastnosti nejen interakcí, ale i obou aktérů, a navíc je ovlivňuje.
 
@@ -84,9 +70,18 @@ Kontext má nezastupitelnou pozici v hierarchii modelů umělé inteligence:
 - cloudové (typicky zde vnímáme LLM)
 
 ### Specializace modelu:
-- interní: trénink, změna vah
-- externí: rozšíření, RAG, nástroje
-- kontextové: zúžení pozornosti
+- interní: Mění váhy modelu
+	- trénink, fine-tuning, gradient descent ...
+	- Backpropagation, Gradient Descent, Adam, SGD ...
+	- Jde o permanentní změnu modelu.
+- externí: Rozšíření zdrojů (mění pozornost modelu)
+	- RAG, API volání, nástroje, databáze ...
+	- attention, KV cache, softmax ...
+	- Model získává data ke zpracování.
+- kontextové: Mění pozornost modelu
+	- Struktura kontextu, kotvy, role, účel ...
+	- attention, KV cache, softmax ...
+	- Jde o dočasnou změnu modelu.
 
 ### Agent jednající na základě instrukce:
 - I-agent: vykonává úkol s trénovanými znalostmi
@@ -95,23 +90,59 @@ Kontext má nezastupitelnou pozici v hierarchii modelů umělé inteligence:
 
 > _"Reálný agent je většinou kombinován více specializacemi a aktivován instrukcí."_
 
-## K-agent
-Vztahy a vlastnosti K-agenta v modelu T-Ex:  
-- Kontext existuje pro daný účel.
-- Účel kontextu je popsán křivkou interakce.
-- S kontextem interaguje uživatel exokortexu.
-- Kontext specializuje model, který se stává K-agentem při interakci s exokortexem.
+## Exokortikální organismus
+Lidská a umělá inteligence, které interagují s exokortexem, tvoří exokortikální organismus při následujících podmínkách:  
+- Obě inteligence spolupracují na kognitivních výstupech prostřednictvím exokortexu.  
+- Kognitivní výstupy jsou strukturálně kompatibilní lidské inteligenci, které by jinak vznikaly kognitivními procesy.
+Tímto vymezením se exokortikální organismus (ve smyslu obecného kognitivního systému i mimo T-Ex model) odlišuje od konvenčních nástrojů.
+
+### Stádia exokortikálného organismu
+Lidé používající dialogové rozhraní ke spolupráci s velkými jazykovými modely se stávají součástí exokortikálního organismu. Dá se uvažovat o vývojových stádiích, kterých organismus dosahuje podle způsobu interakce uživatele:  
+1. Výstup: instrukce se zaměřují na kvalitu výstupu LLM.  
+	- Jedná se o dotazování, instruování, komunikaci.  
+	- RICE (Role, Instrukce, Obsah, Příklad)  
+	- COAST (Obsah, Cíl, Instrukce, Styl, Formát)  
+2. Vstup: instrukce se zaměřují na kvalitu vstupu, kterým se ovlivňuje výstup LLM.  
+	- Jedná se o systémové instrukce, sumarizace, opakování vzoru.  
+	- RAG (vložení obsahu)  
+	- HyDE (hypotetický dokument generovaný modelem)  
+3. Infrastruktura: instrukce se zaměřují na budování obsahu a propojování mezi relacemi, tím se ovlivňuje vstup a LLM pak vykazuje emergentní výstupy.  
+	- Jedná se o propojování K-agentů, budování exokortexu a propojení s vlastním myšlením.  
+	- Otisk myšlení (K-agent, který myslí a píše jako uživatel)  
+	- Oponent (K-agent, který neví, že stojí proti uživateli a ničí jeho práci)  
+	- Automatizace dialogu (K-agent, který myslí jako uživatel si vyměňuje a diskutuje s oponentem, K-agentem, který jej ničí. Vzniká emergence)
+
+## Prompt, Kontext, K-agent a T-neuron
+Model T-Ex vychází z textového pojetí exokortexu. Text je centrálním prvkem systému, který se dá dělit:  
+- T-neuron: Jde o informační celek, atomární jednotka textu, nesoucí minimálně jednu myšlenku, kdy nejsme ochotni ji více dělit.  
+	- Věta  
+	- Bod  
+	- Odstavec  
+- Prompt: Vstup do dialogového prostředí vzniklý interakcí [IB]-[CB]. Tvořen z T-neuronů, který může plnit různé účely.  
+	- Otázka, instrukce  
+	- Systémový prompt  
+	- Komplexní prompt  
+- Generované tokeny: Vstup do dialogového prostředí vzniklý interakcí [CB]-[AB]. Tvořen z T-neuronů.  
+- Kontext: Sekvence promptů a generovaných tokenů v dialogovém prostředí.
+
+## Kontext
+Vztahy a vlastnosti Kontextu:  
+- Kontext existuje pro daný účel.  
+- S kontextem interaguje uživatel exokortexu.  
+- Kontext specializuje model, který se stává K-agentem při interakci s exokortexem.  
 - Uživatel i K-agent interakcemi s exokortexem mění účel kontextu.
 
-## Křivka účelu interakce
-Paradigma současné doby staví kontext na 1. místo ve spolupráci člověka s LLM. Jde dokonce tak daleko, že tam, kde to je možné, odstraňuje uživatele z pozice spolutvůrce kontextu, aby agentic systémy dosahovaly lepších výsledku a uživatel s nimi interagoval jen na nejvyšší úrovni.
+## Exokortex
+S exokortexem se interaguje mnoha metodami, které jsou známy, nebo které nově popisuje model T-Ex. Zjednodušeně se dají kategorizovat tři úrovně práce s Kontextem:
+1. Prompt engineering: věnuje se disciplíně jak ovlivnit promptem následné generované tokeny.
+2. Kontext engineering: věnuje se disciplíně jak vytvořit kvalitní kontextový vstup pro následné generované tokeny.
+3. Synaps engineering: věnuje se disciplíně jak propojit kontext, aby vznikaly emergence v následných generovaných tokenech.
+	- Jde na úroveň T-neuronů, kdy se prompty, kontextem, ale i generovanými tokeny vytváří struktury, které se v interakcích s LLM chovají emergentně.
+	- Samotný kontext na úrovni T-neuronů v sobě obsahuje podobnou strukturu jakou má lidský mozek, nebo model LLM. Průchodem signálu se vynoří nové vzory.
+	- Halucinace je nezvládnutý synaps engineering.
 
-Model T-Ex zaměřuje pozornost od kontextu k jeho účelu, od spolupráce s LLM k propojení inteligencí a začleňuje agentic přístup do exokortexu.
-
-Účel spolupráce mají oba aktéři jiný. Definuje kontext, specializaci modelu a ovlivňuje uživatele. Křivka účelu interakce popisuje vlastnosti a dynamiku propojených inteligencí.
-
-## Stádia exokortikálného organismu
-Všichni uživatelé LLM se stávají exokortikálním organismem. Rozdíl je jen v tom, jakého vývojového stádia dosahují. Zjednodušující příklad:  
-- Prompt egineer: Bojuje s LLM, snaží se jej přechytračit, delegovat kognice, aby výstup odpovídal očekávání. Interakce jsou blízko k pólu [AB].
-- Kontext engineer: Vnímá kontext jako klíč ke spolupráci s LLM. Jeho boj není s LLM, ale kontextem, kdy interakce jsou gravitovány k pólu [AB], ale rozprostírají se na větší šířku spektra [AB]---[IB].
-- Synapse engineer: Vnímá účel jako klíč k propojení inteligencí. Jeho boj není s kontextem, ani LLM, ale se samotným účelem interakcí inteligencí. Odstraňuje třecí plochy a synergicky se napojuje na LLM přes exokortex. Používá celé spektrum interakcí [AB]---[IB] aby naplnil a udržel definovaný účel.
+> Potkají se tři lidé v kanceláři. Prompt, Kontext a Synaps týpci. Zatímco se vaří kafe, Kontext inženýr poučuje promptera:
+> "Že ten model není blbej."
+> "Že jsi jeho ..."
+> Poučuje tak dlouho, dokud Synaps architekt neusrkne kafe a nezačne mluvit.
+> Prompter a inženýr raději odcházejí a architek se dívá, jestli je někdo, kdo vyvrátí jeho halucinaci.
