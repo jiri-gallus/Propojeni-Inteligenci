@@ -8,6 +8,8 @@
 > Co na to Homo erectus?
 > "Chlapi, já jsem ten oheň rozdělal, abych upekl maso. Nenaučil jsem se číst!"
 
+# Synapse engineering
+
 # Kontextová diagnostika interakcí
 
 
