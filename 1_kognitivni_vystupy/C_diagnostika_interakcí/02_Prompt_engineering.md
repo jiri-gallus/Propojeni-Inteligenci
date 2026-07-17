@@ -1,4 +1,4 @@
-# Trh
+# Prompt endineering
 Na internetu je mnoho zaručených informací, jak promptovat LLM. Trh se školením umělé inteligence tento trend ukazuje:
 
 | Segment trhu                   | Velikost trhu (rok) | Projekce (rok)  | CAGR  |
@@ -33,6 +33,7 @@ Srovnání profesí na Americkém trhu
 - RICE - metoda přiřazení Role, Instrukce, Obsahu, Příkladu
 - COAST - metoda přiřazení Obsahu, Cíle, Instrukce, Stylu, Formátu
 - Šablony - metoda, která se na prompty dívá jako na šablony a ukládá ty fungující pro pozdější použití
+- Formátování - scafolding, hierarchie textu, markdown, JSON, HTML ...
 
 # Hlídání účelu
 výše popsané techniky a metody nejsou špatné. Nemusí se zahazovat jen pro to, že nezapadají do exokortexu. Naopak. Oni tam zapadají, protože každá podporuje jiný účel kognice. Otázkou jen je, jaký.
