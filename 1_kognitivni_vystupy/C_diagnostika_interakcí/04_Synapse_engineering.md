@@ -9,8 +9,35 @@
 > "Chlapi, já jsem ten oheň rozdělal, abych upekl maso. Nenaučil jsem se číst!"
 
 # Synapse engineering
+Synapse engineering není ničím novým, ve větší či menší míře tohle uživatelé a společnosti používají. Nová je terminologie, diagnostika a způsob uvažování nad textem. Synapse engineering se dělí na diagnostickou a aplikační rovinu.
 
-# Kontextová diagnostika interakcí
+## Kontextová diagnostika interakcí
+Před zavedením diagnostiky textu interakcí dojde k sjednocení a popis důležitých pojmů:
+- Interakce - jedna výměna mezi uživatelem a LLM
+- Kontext - text diagnostiky dělení na
+	- Prompt - text uživatele
+	- Generované tokeny - text LLM
+- T-neuron - informační celek textu nesoucí myšlenku. Minimální velikost je jedna věta textu.
+- Téma - Referenční téma vůči němuž se posuzuje myšlena T-neuronu.
+- Účel - důvod pro který se vstupuje do interakce s LLM. Může být složeno z více témat.
+
+### Příprava dat
+Diagnostika se dělá na úrovni křivek interakcí, které se skládají z jednotlivých bodů. Body křivek interakcí jsou určeny počtem znaků textu. Pro přípravu je text dělen podle 3 základních parametrů:
+- P1 (délka textu) - celkový počet znaků jedné interakce
+- P2 (text mimo téma) - počet znaků, které se zabývají jiným tématem v jedné interakci
+- P3 (tex prohlubující téma) - počet znaků, které prohlubují dané téma v jedné interakci
+
+**Základní filtry:**
+- F1 - označí se T-neurony, které jsou pro jiné téma
+- F2 - označí se T-neurony, které téma neprohlubují
+Účel sofistikovaného promptu v kapitole [02_Prompt_engineering] je aplikovat F1 a F2 na T-neurony zadaného textu podle tématu a metodiky. F1 probíhá v 2. vlně generace a F2 ve 3. vlně generace.
+
+### Křivky interakcí
+Celý kontext se dělí na interakce, tedy [prompt > generace tokenů], které se vynášení na jednotlivé řádky. Tímto se zobrazí časová posloupnost, která umožňuje diagnostikovat trendy.
+
+Každý řádek, interakce, je osou rozdělenou na 200 bodů, které jsou rozloženy jako 100 - 0 - 100 kdy 100 - 0 je zastoupení poměrů znaků uživatele a 0 - 100 je zastoupení poměrů znaků LLM.
+
+![[Pasted image 20260718135909.png]]
 
 
 
